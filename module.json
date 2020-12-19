@@ -6,40 +6,39 @@
   "version": "1.0.0",
   "minimumCoreVersion": "0.7",
   "compatibleCoreVersion": "0.7.8",
-  "systems": ["CoC7"],
   "packs": [
       {
         "name": "indices",
         "label": "Indices à Distribuer",
-        "path": "Packs/indices.db",
+        "path": "packs/indices.db",
         "entity": "JournalEntry",
         "module": "la-maison-corbitt"
       },
       {
         "name": "la-maison-corbitt",
         "label": "Playlist",
-        "path": "Packs/la-maison-corbitt.db",
+        "path": "packs/la-maison-corbitt.db",
         "entity": "Playlist",
         "module": "la-maison-corbitt"
       },
       {
         "name": "lieux",
         "label": "Illustation des lieux à visiter",
-        "path": "Packs/lieux.db",
+        "path": "packs/lieux.db",
         "entity": "JournalEntry",
         "module": "la-maison-corbitt"
       },
       {
         "name": "pnj",
         "label": "Les PNJ",
-        "path": "Packs/pnj.db",
+        "path": "packs/pnj.db",
         "entity": "Actor",
         "module": "la-maison-corbitt"
       },
       {
         "name": "scenes",
         "label": "Les support de scènes",
-        "path": "Packs/scenes.db",
+        "path": "packs/scenes.db",
         "entity": "Scene",
         "module": "la-maison-corbitt"
       }
