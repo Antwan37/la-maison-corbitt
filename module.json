@@ -27,7 +27,7 @@
         "label": "Illustation des lieux à visiter",
         "path": "Packs/lieux.db",
         "entity": "JournalEntry",
-        "module": "de-si-beaux-esprits"
+        "module": "la-maison-corbitt"
       },
       {
         "name": "pnj",
