@@ -11,35 +11,35 @@
       {
         "name": "indices",
         "label": "Indices à Distribuer",
-        "path": "packs/indices.db",
+        "path": "Packs/indices.db",
         "entity": "JournalEntry",
         "module": "la-maison-corbitt"
       },
       {
         "name": "la-maison-corbitt",
         "label": "Playlist",
-        "path": "packs/la-maison-corbitt.db",
+        "path": "Packs/la-maison-corbitt.db",
         "entity": "Playlist",
         "module": "la-maison-corbitt"
       },
       {
         "name": "lieux",
         "label": "Illustation des lieux à visiter",
-        "path": "packs/lieux.db",
+        "path": "Packs/lieux.db",
         "entity": "JournalEntry",
         "module": "de-si-beaux-esprits"
       },
       {
         "name": "pnj",
         "label": "Les PNJ",
-        "path": "packs/pnj.db",
+        "path": "Packs/pnj.db",
         "entity": "Actor",
         "module": "la-maison-corbitt"
       },
       {
         "name": "scenes",
         "label": "Les support de scènes",
-        "path": "packs/scenes.db",
+        "path": "Packs/scenes.db",
         "entity": "Scene",
         "module": "la-maison-corbitt"
       }
