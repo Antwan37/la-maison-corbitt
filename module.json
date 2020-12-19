@@ -9,57 +9,42 @@
   "systems": ["CoC7"],
   "packs": [
       {
-        "name": "illustrations-dsbe",
-        "label": "Illustrations Ambiance",
-        "path": "packs/illustrations-dsbe.db",
+        "name": "indices",
+        "label": "Indices à Distribuer",
+        "path": "packs/indices.db",
+        "entity": "JournalEntry",
+        "module": "la-maison-corbitt"
+      },
+      {
+        "name": "la-maison-corbitt",
+        "label": "Playlist",
+        "path": "packs/la-maison-corbitt.db",
+        "entity": "Playlist",
+        "module": "la-maison-corbitt"
+      },
+      {
+        "name": "lieux",
+        "label": "Illustation des lieux à visiter",
+        "path": "packs/lieux.db",
         "entity": "JournalEntry",
         "module": "de-si-beaux-esprits"
       },
       {
-        "name": "item-dsbe",
-        "label": "Inventaire",
-        "path": "packs/item-dsbe.db",
-        "entity": "Item",
-        "module": "de-si-beaux-esprits"
-      },
-      {
-        "name": "pnj-dsbe",
+        "name": "pnj",
         "label": "Les PNJ",
-        "path": "packs/pnj-dsbe.db",
+        "path": "packs/pnj.db",
         "entity": "Actor",
-        "module": "de-si-beaux-esprits"
+        "module": "la-maison-corbitt"
       },
       {
-        "name": "pretires-dsbe",
-        "label": "Les PJ Prétirés",
-        "path": "packs/pretires-dsbe.db",
-        "entity": "Actor",
-        "module": "de-si-beaux-esprits"
-      },
-      {
-        "name": "profil-dsbe",
-        "label": "Profil custom",
-        "path": "packs/profil-dsbe.db",
-        "entity": "Item",
-        "module": "de-si-beaux-esprits"
-      },
-      {
-        "name": "scenes-dsbe",
-        "label": "Les battlemaps",
-        "path": "packs/scenes-dsbe.db",
+        "name": "scenes",
+        "label": "Les support de scènes",
+        "path": "packs/scenes.db",
         "entity": "Scene",
-        "module": "de-si-beaux-esprits"
+        "module": "la-maison-corbitt"
       },
-      {
-        "name": "playlist",
-        "label": "Musique & Bruitages",
-        "path": "packs/playlist.db",
-        "entity": "Playlist",
-        "module": "de-si-beaux-esprits"
-      }
-    
     ],
-    "url": "https://github.com/Antwan37/de-si-beaux-esprits.git",
+    "url": ,
     "manifest": "https://raw.githubusercontent.com/Antwan37/de-si-beaux-esprits/main/module.json",
     "download": "https://github.com/Antwan37/de-si-beaux-esprits/archive/main.zip"
 }
